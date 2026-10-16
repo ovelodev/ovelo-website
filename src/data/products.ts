@@ -22,7 +22,7 @@ export type ProductCategory =
   | "Connected experiences";
 
 /** Keys map to icons in components/products/ProductIcon.tsx. */
-export type ProductIconKey = "olynk" | "sparkles" | "checklist" | "wrench";
+export type ProductIconKey = "olynk" | "island" | "sparkles" | "checklist" | "wrench";
 
 export interface StoreLink {
   label: string;
@@ -56,10 +56,59 @@ export interface Product {
   releaseNotesUrl?: string;
   faqs: ProductFaq[];
   /** Optional UI mock-up, always labelled as a preview. */
-  preview?: "olynk";
+  preview?: "olynk" | "island";
 }
 
 export const products: Product[] = [
+  {
+    slug: "dynamic-island",
+    name: "Dynamic Island",
+    tagline: "An interactive island for live activity on Android phones.",
+    shortDescription:
+      "Brings notifications, media controls, calls and timers into a pill-shaped, animated area at the top of your Android screen.",
+    fullDescription: [
+      "Dynamic Island adds a small, interactive area around the top of your Android phone’s screen. Instead of pulling down the notification shade, you see what’s happening — a new notification, the song that’s playing, an ongoing call or a running timer — right where your eyes already are.",
+      "The island expands when there’s something to show and shrinks out of the way when there isn’t. It is coming soon; device and Android version support will be confirmed at launch.",
+      "Dynamic Island is an independent Ovelo product and is not affiliated with, endorsed by or sponsored by Apple Inc.",
+    ],
+    audience:
+      "Android users who want a quick, glanceable way to keep track of notifications, music, calls and timers without leaving what they’re doing.",
+    category: "Utilities",
+    status: "coming-soon",
+    icon: "island",
+    featured: true,
+    features: [
+      "Notifications appear in the island as they arrive",
+      "Music and media controls — see what’s playing, pause and skip",
+      "Live view of ongoing calls and running timers",
+      "Customisable look, so the island fits your phone and style",
+    ],
+    platforms: ["Android"],
+    storeLinks: [],
+    faqs: [
+      {
+        question: "Is Dynamic Island available yet?",
+        answer:
+          "Not yet — it’s coming soon. Store links will appear on this page once it is published, and not before.",
+      },
+      {
+        question: "Which phones will it work on?",
+        answer:
+          "It is built for Android phones. Supported devices and Android versions will be confirmed at launch.",
+      },
+      {
+        question: "Is this made by Apple?",
+        answer:
+          "No. Dynamic Island for Android is an independent Ovelo product. It is not affiliated with, endorsed by or sponsored by Apple Inc.",
+      },
+      {
+        question: "How can I hear when it launches?",
+        answer:
+          "Use “Join updates” to send us a short message, and we’ll reply when it’s available. We don’t run a mailing list yet.",
+      },
+    ],
+    preview: "island",
+  },
   {
     slug: "olynk",
     name: "Olynk",

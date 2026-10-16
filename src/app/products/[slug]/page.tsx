@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Check, Clock, LifeBuoy, Lock, Monitor } from "lucide-react";
 import { CTASection } from "@/components/home/CTASection";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
+import { IslandPreview } from "@/components/products/IslandPreview";
 import { OlynkPreview } from "@/components/products/OlynkPreview";
 import { ProductIcon } from "@/components/products/ProductIcon";
 import { Accordion } from "@/components/ui/Accordion";
@@ -60,7 +61,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const product = getProduct(slug);
   if (!product) notFound();
 
-  const upcoming = product.status !== "available";
+  const exploring = product.status === "in-development";
   const supportEmail = product.support?.email ?? site.supportEmail;
 
   return (
@@ -99,10 +100,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 <StatusCTA product={product} />
               </Reveal>
             </div>
-            {product.preview === "olynk" && (
-              <Reveal delay={0.2}>
-                <OlynkPreview />
-              </Reveal>
+            {product.preview && (
+              <Reveal delay={0.2}>{product.preview === "olynk" ? <OlynkPreview /> : <IslandPreview />}</Reveal>
             )}
           </div>
         </Container>
@@ -127,12 +126,15 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <div className="mt-14">
               <Reveal>
                 <h2 className="text-2xl font-semibold tracking-tight text-navy-950">
-                  {upcoming ? "What we’re exploring" : "Features"}
+                  {exploring ? "What we’re exploring" : "Features"}
                 </h2>
-                {upcoming && (
+                {exploring && (
                   <p className="mt-3 text-ink-600">
                     These are goals for the product, not finished features. Details may change during development.
                   </p>
+                )}
+                {product.status === "coming-soon" && (
+                  <p className="mt-3 text-ink-600">Built and being prepared for release.</p>
                 )}
               </Reveal>
               <Stagger as="ul" className="mt-8 grid gap-4 sm:grid-cols-2">

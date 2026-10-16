@@ -21,7 +21,7 @@ export function FeaturedProducts() {
             description={
               anyAvailable
                 ? "A selection of Ovelo products. Each one is labelled with its current status."
-                : "Nothing is publicly available yet. Here’s an honest look at what’s in development."
+                : "Nothing is publicly available yet. Here’s an honest look at what’s coming."
             }
           />
           <ButtonLink href="/products" variant="secondary" className="self-start lg:self-auto">

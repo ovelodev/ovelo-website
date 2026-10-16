@@ -120,7 +120,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-violet opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-violet" />
             </span>
-            Our first products are currently in development.
+            Our first products are on the way.
           </motion.p>
         </motion.div>
 

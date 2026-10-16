@@ -1,9 +1,10 @@
-import { ListChecks, Radar, Sparkles, Wrench, type LucideIcon } from "lucide-react";
+import { ListChecks, Radar, Smartphone, Sparkles, Wrench, type LucideIcon } from "lucide-react";
 import type { ProductIconKey } from "@/data/products";
 import { cn } from "@/lib/utils";
 
 const icons: Record<ProductIconKey, LucideIcon> = {
   olynk: Radar,
+  island: Smartphone,
   sparkles: Sparkles,
   checklist: ListChecks,
   wrench: Wrench,
