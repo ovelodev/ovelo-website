@@ -87,7 +87,7 @@ export function Hero() {
             transition={{ duration: 0.9, ease, delay: 0.6 }}
             className="mt-7 max-w-xl text-lg leading-relaxed text-pretty text-ink-600 sm:text-xl"
           >
-            Ovelo AI creates practical software, AI-powered experiences, and digital tools designed to make everyday
+            Ovelo creates practical software, AI-powered experiences, and digital tools designed to make everyday
             tasks simpler.
           </motion.p>
 
@@ -105,7 +105,7 @@ export function Hero() {
             </Magnetic>
             <Magnetic>
               <ButtonLink href="/about" variant="secondary" className="px-7 py-3.5 text-base">
-                About Ovelo AI
+                About Ovelo
               </ButtonLink>
             </Magnetic>
           </motion.div>

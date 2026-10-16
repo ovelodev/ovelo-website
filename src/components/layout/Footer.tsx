@@ -40,7 +40,7 @@ export function Footer() {
       <Container className="relative pt-16 pb-10">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
           <div className="max-w-sm">
-            <Link href="/" aria-label="Ovelo AI home" className="inline-flex rounded-full">
+            <Link href="/" aria-label="Ovelo home" className="inline-flex rounded-full">
               <Logo gradientId="logo-footer" />
             </Link>
             <p className="mt-5 leading-relaxed text-ink-600">
@@ -94,7 +94,7 @@ export function Footer() {
         </p>
 
         <div className="mt-4 flex flex-col items-start justify-between gap-4 border-t border-line pt-8 text-sm text-ink-500 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} Ovelo AI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ovelo. All rights reserved.</p>
           <p>Useful technology. Thoughtfully built.</p>
         </div>
       </Container>

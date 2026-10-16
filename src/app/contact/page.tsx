@@ -10,12 +10,12 @@ import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Contact",
-  description: "Get in touch with Ovelo AI for general enquiries, product support, feedback, business or security matters.",
+  description: "Get in touch with Ovelo for general enquiries, product support, feedback, business or security matters.",
   path: "/contact",
 });
 
 const topics = [
-  { icon: MessageSquareText, title: "General enquiry", body: "Questions about Ovelo AI or what we’re working on." },
+  { icon: MessageSquareText, title: "General enquiry", body: "Questions about Ovelo or what we’re working on." },
   { icon: LifeBuoy, title: "Product support", body: "Help with one of our products." },
   { icon: Sparkles, title: "Feedback & ideas", body: "Feature requests and suggestions are always welcome." },
   { icon: Briefcase, title: "Business enquiry", body: "Collaboration and partnership conversations." },

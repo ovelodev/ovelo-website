@@ -1,8 +1,8 @@
 export const site = {
-  name: "Ovelo AI",
+  name: "Ovelo",
   tagline: "Useful technology. Thoughtfully built.",
   description:
-    "Ovelo AI creates practical software, AI-powered experiences, and digital tools designed to make everyday tasks simpler.",
+    "Ovelo creates practical software, AI-powered experiences, and digital tools designed to make everyday tasks simpler.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
   email: "ovelo.dev@gmail.com",
   supportEmail: "ovelo.dev@gmail.com",

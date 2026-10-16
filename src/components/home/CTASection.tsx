@@ -39,7 +39,7 @@ export function CTASection({
                   variant="ghost"
                   className="border border-white/25 px-7 py-3.5 text-base text-white hover:bg-white/10"
                 >
-                  Contact Ovelo AI
+                  Contact Ovelo
                 </ButtonLink>
               </Magnetic>
             </div>

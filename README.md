@@ -1,4 +1,4 @@
-# Ovelo AI website
+# Ovelo website
 
 Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 · Framer Motion.
 
@@ -21,7 +21,7 @@ The site is a fully static export (`output: "export"` in `next.config.ts`), so i
 1. Create a **public** repository on GitHub, e.g. `ovelo-website` (Pages is free for public repos).
 2. Push this folder to it:
    ```bash
-   git add -A && git commit -m "Ovelo AI website"
+   git add -A && git commit -m "Ovelo website"
    git branch -M main
    git remote add origin https://github.com/<your-username>/ovelo-website.git
    git push -u origin main

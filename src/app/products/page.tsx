@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "Products",
   description:
-    "Browse Ovelo AI products and see the current status of each one — available, coming soon, or in development.",
+    "Browse Ovelo products and see the current status of each one — available, coming soon, or in development.",
   path: "/products",
 });
 
@@ -23,7 +23,7 @@ export default function ProductsPage() {
             Tools we’re <span className="text-gradient">building</span>.
           </>
         }
-        description="Every Ovelo AI product in one place. Each one is clearly labelled, so you always know what you can use today and what’s still on the way."
+        description="Every Ovelo product in one place. Each one is clearly labelled, so you always know what you can use today and what’s still on the way."
       >
         <ul className="mt-8 flex flex-wrap gap-2" aria-label="Status key">
           <li>

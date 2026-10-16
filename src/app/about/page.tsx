@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata({
   title: "About",
   description:
-    "Why Ovelo AI exists, how we think about building software, and the areas we explore across AI, productivity and everyday utilities.",
+    "Why Ovelo exists, how we think about building software, and the areas we explore across AI, productivity and everyday utilities.",
   path: "/about",
 });
 
@@ -18,13 +18,13 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Ovelo AI"
+        eyebrow="About Ovelo"
         title={
           <>
             Making everyday technology <span className="text-gradient">quietly better</span>.
           </>
         }
-        description="Ovelo AI is a software brand building practical digital products. We focus on tools that are genuinely useful, easy to understand, and respectful of the people who use them."
+        description="Ovelo is a software brand building practical digital products. We focus on tools that are genuinely useful, easy to understand, and respectful of the people who use them."
       />
 
       <section className="py-16 sm:py-24">

@@ -15,7 +15,7 @@ import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Support",
-  description: "How to get help with Ovelo AI products, where to find product information, and how to contact support.",
+  description: "How to get help with Ovelo products, where to find product information, and how to contact support.",
   path: "/support",
 });
 
@@ -39,7 +39,7 @@ const steps = [
 
 const generalFaqs = [
   {
-    question: "Where can I download Ovelo AI products?",
+    question: "Where can I download Ovelo products?",
     answer:
       "Only from the official store links shown on each product page. If a product page doesn’t show a store link, that product isn’t available yet.",
   },

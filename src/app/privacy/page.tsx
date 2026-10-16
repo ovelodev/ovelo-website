@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Privacy Policy",
-  description: "How the Ovelo AI website handles information, including contact messages and technical data.",
+  description: "How the Ovelo website handles information, including contact messages and technical data.",
   path: "/privacy",
 });
 
@@ -18,11 +18,11 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          This policy covers the Ovelo AI website. We keep data collection to a minimum: the website does not use
+          This policy covers the Ovelo website. We keep data collection to a minimum: the website does not use
           analytics, advertising or tracking cookies, and does not include third-party embeds.
         </p>
         <p>
-          Individual Ovelo AI apps may handle data differently. Where that applies, each app will have its own privacy
+          Individual Ovelo apps may handle data differently. Where that applies, each app will have its own privacy
           policy, linked from its product page.
         </p>
       </>

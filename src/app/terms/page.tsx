@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Terms of Use",
-  description: "The terms that apply when you use the Ovelo AI website.",
+  description: "The terms that apply when you use the Ovelo website.",
   path: "/terms",
 });
 
@@ -15,7 +15,7 @@ const sections: LegalSection[] = [
     heading: "About these terms",
     body: (
       <p>
-        These terms apply to your use of the Ovelo AI website. By using the site, you agree to them. Individual Ovelo AI
+        These terms apply to your use of the Ovelo website. By using the site, you agree to them. Individual Ovelo
         products may have their own terms, which will be provided with those products.
       </p>
     ),
@@ -40,7 +40,7 @@ const sections: LegalSection[] = [
     heading: "Intellectual property",
     body: (
       <p>
-        The Ovelo AI name, logo, website design and content belong to Ovelo AI unless stated otherwise. You may view and
+        The Ovelo name, logo, website design and content belong to Ovelo unless stated otherwise. You may view and
         share links to pages for personal, non-commercial purposes, but you may not copy, modify or reuse the content or
         branding without permission.
       </p>

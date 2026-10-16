@@ -53,7 +53,7 @@ export function Header() {
               : "border-transparent bg-transparent",
           )}
         >
-          <Link href="/" aria-label="Ovelo AI home" onClick={() => setOpen(false)} className="rounded-full">
+          <Link href="/" aria-label="Ovelo home" onClick={() => setOpen(false)} className="rounded-full">
             <Logo gradientId="logo-header" />
           </Link>
 

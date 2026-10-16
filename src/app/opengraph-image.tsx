@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const dynamic = "force-static";
 
-export const alt = "Ovelo AI — Useful technology. Thoughtfully built.";
+export const alt = "Ovelo — Useful technology. Thoughtfully built.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -34,7 +34,7 @@ export default function OpengraphImage() {
             <path d="M24 6a18 18 0 1 0 17.3 13" fill="none" stroke="url(#g)" strokeWidth="7" strokeLinecap="round" />
             <circle cx="35.6" cy="10.2" r="4.6" fill="url(#g)" />
           </svg>
-          <span style={{ fontSize: 44, fontWeight: 700, letterSpacing: -1 }}>Ovelo AI</span>
+          <span style={{ fontSize: 44, fontWeight: 700, letterSpacing: -1 }}>Ovelo</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span style={{ fontSize: 84, fontWeight: 700, letterSpacing: -3, lineHeight: 1.05 }}>Useful technology.</span>

@@ -44,9 +44,7 @@ export function Logo({ className, gradientId }: { className?: string; gradientId
   return (
     <span className={cn("inline-flex items-center gap-2.5", className)}>
       <LogoSymbol className="h-8 w-8" gradientId={gradientId} />
-      <span className="text-[1.15rem] font-semibold tracking-tight text-navy-900">
-        Ovelo<span className="ml-1 font-medium text-navy-700">AI</span>
-      </span>
+      <span className="text-[1.3rem] font-semibold tracking-tight text-navy-900">Ovelo</span>
     </span>
   );
 }

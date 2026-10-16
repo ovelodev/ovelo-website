@@ -20,7 +20,7 @@ export function FeaturedProducts() {
             title={<span id="featured-products">What we’re building.</span>}
             description={
               anyAvailable
-                ? "A selection of Ovelo AI products. Each one is labelled with its current status."
+                ? "A selection of Ovelo products. Each one is labelled with its current status."
                 : "Nothing is publicly available yet. Here’s an honest look at what’s in development."
             }
           />
