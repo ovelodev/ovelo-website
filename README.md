@@ -64,9 +64,10 @@ There is no form backend yet. The form validates input in the browser, runs basi
 
 ## Before launch (requirements §11–12)
 
-- [ ] Replace `hello@example.com` in `src/lib/site.ts` with the official contact/support address.
+- [x] Official contact/support address set in `src/lib/site.ts` (ovelo.dev@gmail.com).
 - [ ] Swap the logo in `src/components/brand/Logo.tsx`, `src/app/icon.svg`, `src/app/apple-icon.tsx` and `src/app/opengraph-image.tsx` for the final logo files, if they differ.
 - [ ] Confirm product details, statuses and store links in `src/data/products.ts`.
 - [ ] Add official social profiles to `site.social` (only ones that exist).
-- [ ] Name the actual hosting provider (e.g. GitHub Pages) and email provider in `src/app/privacy/page.tsx`, and have the Privacy Policy and Terms reviewed for your jurisdictions.
+- [x] Hosting (GitHub Pages) and email (Gmail) providers named in `src/app/privacy/page.tsx`.
+- [ ] Have the Privacy Policy and Terms reviewed for your jurisdictions.
 - [ ] Deploy (see above). GitHub Pages and the alternatives all serve over HTTPS.

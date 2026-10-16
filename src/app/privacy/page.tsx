@@ -65,11 +65,16 @@ const sections: LegalSection[] = [
         <p>We use a small number of providers to run this website and handle email:</p>
         <ul>
           <li>
-            <strong>Website hosting</strong> — serves the pages you visit and may keep the technical logs described
-            above.
+            <strong>GitHub Pages</strong> (GitHub, Inc.) hosts this website. It serves the pages you visit and may
+            keep the technical logs described above. See the{" "}
+            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+              GitHub Privacy Statement
+            </a>
+            .
           </li>
           <li>
-            <strong>Email provider</strong> — stores and delivers the emails you send us.
+            <strong>Gmail</strong> (Google) stores and delivers the emails you send us. See the{" "}
+            <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
           </li>
         </ul>
         <p>

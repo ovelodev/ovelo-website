@@ -4,10 +4,8 @@ export const site = {
   description:
     "Ovelo AI creates practical software, AI-powered experiences, and digital tools designed to make everyday tasks simpler.",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(/\/$/, ""),
-  // TODO(before launch): replace with the official addresses supplied by the owner.
-  // example.com is a reserved development placeholder.
-  email: "hello@example.com",
-  supportEmail: "hello@example.com",
+  email: "ovelo.dev@gmail.com",
+  supportEmail: "ovelo.dev@gmail.com",
   // Only add official profiles that actually exist.
   social: [] as { label: string; href: string }[],
   legalLastUpdated: "16 October 2026",
