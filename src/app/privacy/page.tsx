@@ -22,9 +22,13 @@ const sections: LegalSection[] = [
           analytics, advertising or tracking cookies, and does not include third-party embeds.
         </p>
         <p>
-          Individual Ovelo apps may handle data differently. Where that applies, each app will have its own privacy
-          policy, linked from its product page.
+          Individual Ovelo apps may handle data differently. Where that applies, each app has its own privacy policy:
         </p>
+        <ul>
+          <li>
+            <Link href="/privacy/privox">Privox Privacy Policy</Link>
+          </li>
+        </ul>
       </>
     ),
   },
